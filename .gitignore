@@ -2,7 +2,8 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-
+theory.excalidraw
+best_model.pth
 # Log files
 *.log
 npm-debug.log*
