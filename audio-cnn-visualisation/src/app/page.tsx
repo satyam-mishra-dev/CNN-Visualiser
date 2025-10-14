@@ -139,7 +139,7 @@ export default function HomePage() {
           ),
         );
 
-        const response = await fetch("https://satyam-mishra-dev--audio-cnn-inference-audioclassifi-ce91a6-dev.modal.run", {
+        const response = await fetch("https://satyam-mishra-dev--audio-cnn-inference-audioclassifier-i-ce91a6.modal.run", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ audio_data: base64String }),
