@@ -177,7 +177,7 @@ export default function HomePage() {
             CNN Audio Visualizer
           </h1>
           <p className="text-md mb-8 text-stone-600">
-            Upload a WAV file to see the model&apos;s predictions and feauture maps
+            Upload a WAV file to see the model&apos;s predictions and feature maps
           </p>
 
           <div className="flex flex-col items-center">
@@ -196,7 +196,7 @@ export default function HomePage() {
                 variant="outline"
                 size="lg"
               >
-                {isLoading ? "Analysing..." : "Choose File"}
+                {isLoading ? "Analysing (the first run warms up a GPU, up to 30 s)..." : "Choose File"}
               </Button>
             </div>
 
